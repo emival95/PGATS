@@ -14,14 +14,14 @@
 
 const ListaDeAlunos = [
   "Matheus",
-   "Renata",
-   "Leandro",
-   "ANA",
-   "LUCAS"
+  "Renata",
+  "Leandro",
+  "ANA",
+  "LUCAS"
 ]
 
 ListaDeAlunos.forEach(aluno => {
-    console.log(aluno)
+  console.log(aluno)
 })
 
 const ListaDeAlunosENotas = [
@@ -43,6 +43,6 @@ const ListaDeAlunosENotas = [
   }
 ]
 
-ListaDeAlunosENotas.forEach(aluno =>{
-    console.log(`O aluno ${aluno.nome} tem a nota ${aluno.nota}`)
+ListaDeAlunosENotas.forEach(aluno => {
+  console.log(`O aluno ${aluno.nome} tem a nota ${aluno.nota}`)
 })

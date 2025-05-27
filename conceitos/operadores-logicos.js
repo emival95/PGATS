@@ -20,7 +20,7 @@ const dog = {
     peso: 5.3
 }
 
-console.log(!dog.adotado || dog.peso <10 ) // verdadeiro
+console.log(!dog.adotado || dog.peso < 10) // verdadeiro
 
 console.log(true || true) // verdadeiro
 console.log(true || false) // verdadeiro

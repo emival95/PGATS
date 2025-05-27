@@ -9,7 +9,7 @@ let voltasParaDogFicarSatisfeito = 5
 let volta = 1
 
 
-while(volta <= voltasParaDogFicarSatisfeito){
+while (volta <= voltasParaDogFicarSatisfeito) {
     console.log(`volta de n ${volta} com pitoco`)
 
     volta++
@@ -21,12 +21,12 @@ console.log("-------------------------")
 //exemplo com função
 
 
-function VerificarSeEstarSatisfeito(){
-    while(volta <= voltasParaDogFicarSatisfeito){
-    console.log(`volta de n ${volta} com pitoco`)
+function VerificarSeEstarSatisfeito() {
+    while (volta <= voltasParaDogFicarSatisfeito) {
+        console.log(`volta de n ${volta} com pitoco`)
 
-    volta++
-}
+        volta++
+    }
 
     console.log("Acabou o passeio, Satisfeito")
 }

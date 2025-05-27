@@ -47,13 +47,13 @@ Exemplos:
 
  */
 
- 
+
 
 // const nomeDog = "tH   oR@!%  "
 
 const nomeDog = '   Ba!ley Mari@    '
 
- 
+
 
 let nomeFormatado = nomeDog.trim()
 
@@ -61,7 +61,7 @@ nomeFormatado = removerCaracteresEspeciais(nomeFormatado)
 
 nomeFormatado = tornarAPrimeiraLetraMaiuscula(nomeFormatado)
 
- 
+
 
 // const palavras = nomeFormatado.split(/\s+/);
 
@@ -69,13 +69,13 @@ nomeFormatado = tornarAPrimeiraLetraMaiuscula(nomeFormatado)
 
 // const valido = palavras.length === 1;
 
- 
+
 
 // 10 == '10'
 
 // 10 === '10'
 
- 
+
 
 /*
 /*
@@ -100,11 +100,11 @@ nomeFormatado = tornarAPrimeiraLetraMaiuscula(nomeFormatado)
 
 */
 
- 
+
 
 const valido = verificarSeONomeEValido(nomeFormatado)
 
- 
+
 
 console.log(nomeDog)
 
@@ -112,7 +112,7 @@ console.log(nomeFormatado)
 
 console.log(valido)
 
- 
+
 
 function removerCaracteresEspeciais(nome) {
 
@@ -122,7 +122,7 @@ function removerCaracteresEspeciais(nome) {
 
 }
 
- 
+
 
 function removerEspacosEntreAPalavra(nome) {
 
@@ -130,7 +130,7 @@ function removerEspacosEntreAPalavra(nome) {
 
 }
 
- 
+
 
 function tornarAPrimeiraLetraMaiuscula(nome) {
 
@@ -138,9 +138,9 @@ function tornarAPrimeiraLetraMaiuscula(nome) {
 
 }
 
- 
 
-function verificarSeONomeEValido(nome) { 
+
+function verificarSeONomeEValido(nome) {
 
   return nome.split(" ").length === 1
 

@@ -1,4 +1,4 @@
-/*
+/* /*
 crie um script que receba o peso do dog em KG + estoque atual de ração em gramas. Calcule a 
 quantidade diaria de ração com base na seguinte formula: gramas por dias = peso x 30 
 
@@ -46,4 +46,4 @@ console.log(gramasPordia)
 console.log(duracaoEstoque)
 }
 
-calcularConsumo('zeus', 1, 200)
+calcularConsumo('zeus', 1, 200) */

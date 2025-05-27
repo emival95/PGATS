@@ -11,19 +11,19 @@
  */
 const totalPetiscos = 5
 
- for (let i = 1; i <= totalPetiscos; i++) {
-   console.log(`Petisco ${i} entregue! `);
- }
-
-// // Quando todos os petiscos forem entregues
- console.log("O doguinho está satisfeito! ");
-console.log('----------------------------')
-// * EXTRA TRANSFORME A LÓGICA EM UMA FUNÇÃO 
-function verificarSatisfação(){
-  for (let i = 1; i <= totalPetiscos; i++) {
+for (let i = 1; i <= totalPetiscos; i++) {
   console.log(`Petisco ${i} entregue! `);
 }
+
+// // Quando todos os petiscos forem entregues
 console.log("O doguinho está satisfeito! ");
+console.log('----------------------------')
+// * EXTRA TRANSFORME A LÓGICA EM UMA FUNÇÃO 
+function verificarSatisfação() {
+  for (let i = 1; i <= totalPetiscos; i++) {
+    console.log(`Petisco ${i} entregue! `);
+  }
+  console.log("O doguinho está satisfeito! ");
 }
 
 verificarSatisfação()
@@ -31,7 +31,7 @@ verificarSatisfação()
 console.log('-------------------------------------')
 const estoquePetisco = 4
 
-for (let petisco = 1 ; petisco <= estoquePetisco; petisco++){
+for (let petisco = 1; petisco <= estoquePetisco; petisco++) {
   console.log(`Dando o petisco de n: ${petisco} para o dog`)
 }
 

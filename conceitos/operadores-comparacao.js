@@ -10,32 +10,32 @@
 
 */
 // maior que
-console.log(`10 > 5 = ${10 > 5}` ) // verdadeiro = true
+console.log(`10 > 5 = ${10 > 5}`) // verdadeiro = true
 
 
-console.log(10 > 20 ) // verdadeiro = false
+console.log(10 > 20) // verdadeiro = false
 
 
 // maior ou igual
 
-console.log(10 >= 10 ) // verdadeiro = true
-console.log(10 >= 9 ) // verdadeiro = true
+console.log(10 >= 10) // verdadeiro = true
+console.log(10 >= 9) // verdadeiro = true
 
 // menor que 
 
-console.log(10 < 5 ) // verdadeiro = falso
-console.log(10 < 20 ) // verdadeiro = true
+console.log(10 < 5) // verdadeiro = falso
+console.log(10 < 20) // verdadeiro = true
 
 // menor ou igual 
-console.log(10 <= 10 ) // verdadeiro = true
-console.log(10 < 10 ) // verdadeiro = false
+console.log(10 <= 10) // verdadeiro = true
+console.log(10 < 10) // verdadeiro = false
 
 // igualdade somente de valores
 
-console.log(1=='1' ) // verdadeiro = true
+console.log(1 == '1') // verdadeiro = true
 
 // Igualdade de valores e tipos de dados
-console.log(1==='1' ) // verdadeiro = false
+console.log(1 === '1') // verdadeiro = false
 
 
 // diferença de valores 

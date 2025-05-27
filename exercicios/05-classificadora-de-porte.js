@@ -12,7 +12,7 @@
 
 const nome = 'Zeus'
 const peso = 11
-const porte = peso <=10 ?'pequeno' : 'medio'
+const porte = peso <= 10 ? 'pequeno' : 'medio'
 
 console.log('-------------')
 console.log(`Nome: ${nome}`)
@@ -22,14 +22,14 @@ console.log('----------')
 
 // alternativa com a função 
 
-function classificarPortePorPeso(nome,peso){
-    const porte = peso <=10 ?'pequeno' : 'medio'
+function classificarPortePorPeso(nome, peso) {
+    const porte = peso <= 10 ? 'pequeno' : 'medio'
 
-console.log('-------------')
-console.log(`Nome: ${nome}`)
-console.log(`Nome: ${peso}`)
-console.log(`Nome: ${porte}`)
-console.log('----------')
+    console.log('-------------')
+    console.log(`Nome: ${nome}`)
+    console.log(`Nome: ${peso}`)
+    console.log(`Nome: ${porte}`)
+    console.log('----------')
 }
 
 classificarPortePorPeso('Zeus', 5.5)
