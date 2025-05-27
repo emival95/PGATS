@@ -14,7 +14,7 @@ function decidirTipoDeAtividadePorPorte(porte) {
   const atividadesPorPorte = {
     pequeno: 'brincar dentro de casa',
     medio: 'passear no parque',
-    grande: 'correr em áreas abertas',
+    grande: 'correr em áreas abertas já',
   };
 
   return atividadesPorPorte[porte] || 'porte não reconhecido';
