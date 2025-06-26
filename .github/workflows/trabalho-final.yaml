@@ -1,5 +1,5 @@
 
-name: 'Execução agendada'
+name: 'trabalho final'
 
 
 
@@ -31,10 +31,7 @@ jobs:
       - name: Instalando dependências
         run: yarn
 
-      # instalação do Playwright
-      - name: Instalando Playwright
-        run: yarn playwright install
-
+    
       # Executando testes unitários com Mocha
       - name: Executando Testes Unitários (Mocha)
         run: yarn test:unit
