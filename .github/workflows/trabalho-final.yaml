@@ -22,5 +22,8 @@ jobs:
       - name: Instalar dependências do projeto
         run: yarn install
 
+      - name: Listar arquivos na pasta de testes
+        run: ls -la ./testes  
+
       - name: Executar testes unitários com Mocha
         run: yarn test
