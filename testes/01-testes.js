@@ -23,11 +23,12 @@ describe('teste do Projeto', () => {
 
     it('primeiro  teste', () => {
 
+          assert.ok(true);
     })
 
 
     it('segundo  teste', () => {
-        
-    })
+         assert.ok(true);
+     })
 
 })
