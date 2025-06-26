@@ -1,39 +1,24 @@
-
 name: 'trabalho final'
-
-
 
 on:
   workflow_dispatch:
-    
 
-# trabalhos/tarefas dentro do pipeline = jobs
 jobs:
-  e2e-tests:
-    # máquina que o job vai executar
+  teste-unitarios:
     runs-on: ubuntu-latest
 
-    # passos do script de build
     steps:
-      # clone do projeto
       - uses: actions/checkout@v4
 
-      # instalação do node
       - uses: actions/setup-node@v4
         with:
           node-version: 22.x
 
-      # instalação do yarn
       - name: Instalando yarn
         run: npm install -g yarn
 
-      # instalação das dependências
       - name: Instalando dependências
         run: yarn
 
-    
-      # Executando testes unitários com Mocha
       - name: Executando Testes Unitários (Mocha)
         run: yarn test:unit
-
-      
